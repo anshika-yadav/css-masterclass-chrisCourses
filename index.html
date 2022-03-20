@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Css Masterclass</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      margin: 0;
+      font-family: 'lato', sans-serif;
+    }
+
+    button {
+      font-family: 'lato', sans-serif;
+    }
+
+    .h1 {
+      margin: 0;
+    }
+
+    .bg-gray-900 {
+      background-color: #121826;
+    }
+
+    .text-white {
+      color: white;
+    }
+
+    .block {
+      display: block;
+    }
+
+    .inline-block {
+      display: inline-block;
+    }
+
+    .inline {
+      display: inline;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .justify-between {
+      justify-content: space-between;
+    }
+
+    .justify-center {
+      justify-content: center;
+    }
+
+    .iteams-center {
+      align-items: center;
+    }
+
+    .m-8 {
+      margin: 8px;
+    }
+
+    .p-8 {
+      padding: 8px;
+    }
+
+    .pt-18 {
+      padding: 18px;
+    }
+
+    .py-18 {
+      padding-top: 18px;
+      padding-bottom: 18px;
+    }
+
+    .py-8 {
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+
+    .px-16 {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    .py-12 {
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+
+    .px-28 {
+      padding-left: 28px;
+      padding-right: 28px;
+    }
+
+
+    .font-lato {
+      font-family: 'lato', sans-serf;
+    }
+
+    .no-underline {
+      text-decoration: none;
+    }
+
+    .rounded-full {
+      border-radius: 9999px;
+    }
+
+    .border-none {
+      border: none
+    }
+
+    .bg-brand-teal {
+      background-color: #539D98;
+    }
+
+    .font-bold {
+      font-weight: bold;
+    }
+
+    .uppercase {
+      text-transform: uppercase;
+
+    }
+
+    .text-sm {
+      font-size: 14px;
+    }
+
+    .w-full {
+      width: 100%;
+    }
+
+    .relative {
+      position: relative !important;
+    }
+
+    .z-10 {
+      z-index: 10;
+    }
+
+    .object-cover {
+      object-fit: cover;
+    }
+
+    .text-brand-teal {
+      color: #90CAC7;
+    }
+
+    .text-brand-teal-dark {
+      color: #539D98;
+
+    }
+
+    .bg-white {
+      background-color: white;
+    }
+
+    .absolute {
+      position: absolute;
+    }
+
+    .mx-auto {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media (min-width: 640px) {}
+  </style>
+
+</head>
+
+<body>
+  <header class="flex justify-between py-18 relative z-10 mx-auto" style="padding:18px 12px; max-width: 1200px;">
+    <div class="flex justify-centre iteams-center ">
+      <img class="m-8" src="./logo.svg" alt="" style="margin-right:50px;">
+      <a href="" class="text-white py-8 px-16 no-underline">Pricing</a>
+      <a href="" class="text-white py-8 px-16 no-underline">Courses</a>
+      <a href="" class="text-white py-8 px-16 no-underline ">Blog</a>
+      <a href="" class="text-white py-8 px-16 no-underline ">forum</a>
+    </div>
+
+    <div class="flex iteams-center">
+      <a href="" class="text-white py-8 px-16 no-underline font-lato" style="margin-right:12px;">Login</a>
+      <button class="bg-brand-teal text-white border-none rounded-full py-12 px-28 font-bold uppercase text-sm ">Sign
+        up</button>
+    </div>
+    </div>
+  </header>
+
+  <section class="relative">
+    <video loop="loop" autoplay="autoplay" playsinline muted="muted" class="w-full  object-cover absolute"
+      style="height: 689px; top:-77px;" src="./videos/galaxy-video.mp4">
+    </video>
+
+    <div style="padding: 0 12px; padding-top: 100px; max-width: 1200px;" class="mx-ssauto">
+
+      <div class="relative z-10" style="max-width: 538px;">
+        <h1 style="font-size: 60px; " class="text-white"> Turbocharge your <span class="text-brand-teal">development
+            career</span></h1>
+        <p class="text-white" style="max-width: 449px; font-size: 20px; margin-top: 30px;">Chris Courses provides
+          students
+          and professionals
+          a college-level
+          web development education.
+        </p>
+        <button style="margin-top: 28px; border-radius: 4px;"
+          class="bg-white border-none text-brand-teal-dark py-12 px-28">Get
+          Started</button>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
